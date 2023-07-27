@@ -1,0 +1,406 @@
+* {
+  font-family: "StratosSkyeng", Arial, sans-serif;
+  text-decoration: none !important;
+  /* list-style-type: none !important; */
+  
+}
+a {
+  text-decoration: none !important;
+  list-style-type: none !important;
+}
+body {
+  background: #202020;
+  width: 100%;
+}
+
+.container {
+  max-width: 1300px;
+  margin: auto;
+}
+
+.btn-wrapper {
+  width: 68%;
+  margin: 20px 0px 20px 0px;
+}
+.header__text {
+  font-size: 22px;
+  flex-wrap: wrap;
+  margin: 0px 0px 0px 0px;
+}
+.header__blog {
+  background: rgb(129, 123, 245);
+  background: linear-gradient(
+    180deg,
+    rgba(129, 123, 245, 1) 4%,
+    rgba(81, 114, 121, 1) 47%,
+    rgba(58, 58, 83, 1) 100%
+  );
+  border-radius: 15px;
+}
+.big__text {
+  font-size: 40px;
+}
+.small__text {
+  font-size: 25px;
+}
+
+.btn__auth {
+  padding: 15px 20px;
+  background: rgb(170, 231, 72);
+  border-radius: 15px;
+  font-size: 24px;
+}
+.m__content {
+  margin-top: 13%;
+}
+.orange__text {
+  color: rgb(170, 231, 72);
+}
+.main__blog {
+  background: white;
+  border-radius: 15px;
+  overflow: hidden;
+}
+.p__content {
+  padding: 3% 5%;
+}
+.m__card {
+  margin-top: 10px;
+}
+section {
+  margin: 40px 0px 30px 30px;
+}
+section h1 {
+  width: 70%;
+}
+section h2 {
+  padding: 10px 0px 10px 0px;
+  width: 100%;
+}
+.btn-wrapper {
+  width: 60%;
+  margin: 20px 0px 20px 0px;
+}
+.content_img > img {
+  width: 100%;
+}
+
+.category {
+  margin: 20px 5px 10px 5px;
+}
+.category > h4 {
+  margin: 0px 10px 0px 10px;
+}
+.card {
+  padding: 0px 20px 0px 20px;
+  background-color: rgb(53, 47, 47);
+  border-top-left-radius: 50px;
+  border-top-right-radius: 50px;
+  flex-wrap: wrap;
+}
+.card ul li {
+  font-size: 20px;
+}
+main {
+  margin-top: 70px;
+}
+main > div > img {
+  width: 50%;
+}
+.categories h5 {
+  margin-left: 60px;
+}
+.categories > div > div > img {
+  margin: 0px 10px 0px 10px;
+}
+.foot_card {
+  width: 100%;
+  /* height: 400px; */
+  background-color: white;
+  border-radius: 20px;
+  margin-top: 20px;
+}
+.login > input {
+  width: 20%;
+  border: 1.5px solid red;
+  border-radius: 20px;
+  margin: 20px;
+  padding: 10px 0px 10px 10px;
+}
+.login > a > button {
+  width: 100%;
+  border-radius: 20px;
+  margin: 20px;
+  padding: 10px 0px 10px 10px;
+  background-color: #bcec30;
+  border: none;
+}
+.text_1 {
+  margin: 60px 0px 20px 0px;
+}
+.text_1 h5 {
+  margin: 10px 20px 10px 20px;
+}
+.foot_img > img {
+  margin: 20px 30px 0px 5px;
+}
+.login-modal h1 {
+  font-size: 20px;
+}
+
+
+.login-modal .modal-content {
+  padding: 36px 30px 64px 30px;
+  border: none !important;
+  border-radius: 16px !important;
+  text-align: center;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.login-modal h1 {
+  color: #000;
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.login-modal p {
+  color: var(--black, #2d2a43);
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 28px;
+}
+.login-modal .cross {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  border: none;
+  background: none;
+}
+@media (max-width: 1140px) {
+  .hed_category {
+    flex-wrap: wrap;
+  }
+
+  section h1 {
+    width: 100%;
+  }
+  .cardss {
+    flex-wrap: wrap;
+  }
+}
+@media (max-width: 1025px) {
+  .card {
+    width: 100%;
+
+    border-radius: 15px;
+    margin: 10px 0px 20px -20px;
+  }
+
+  .m__card {
+    margin-top: 0px;
+  }
+}
+
+@media (max-width: 990px) {
+  .card {
+    border-radius: 20px;
+    margin: 10px 10px 10px 0px;
+    /* margin: 0px; */
+  }
+  .foot_text_content {
+    display: none;
+  }
+  .foot_img > img {
+    padding: 0px;
+    /* margin: 0px; */
+  }
+
+  .text_1 {
+    font-size: 17px;
+    display: flex;
+    flex-direction: column;
+    margin: 0px 0px 0px 0px;
+  }
+  .login {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .login > input {
+    width: 90%;
+  }
+  .login > a > button {
+    width: 90%;
+  }
+}
+
+@media (max-width: 920px) {
+  section {
+    margin-left: 20px;
+  }
+  .content h2 {
+    font-size: 20px;
+  }
+  section h1 {
+    font-size: 28px;
+  }
+  section h2 {
+    padding: 10px 10px 0px 0px;
+    width: 100%;
+  }
+  .category {
+    display: flex;
+    align-items: center;
+
+    margin: 0px;
+  }
+  main > div > h1 {
+    font-size: 28px;
+  }
+  .categories > div > h3 {
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+  }
+  .category > div > img {
+    width: 85%;
+    margin: 10px 0px 10px 0px;
+  }
+  .categories > div > div > img {
+    width: 20%;
+    margin: 10px 0px 10px 0px;
+  }
+  .category > h4 {
+    font-size: 20px;
+  }
+  .categories h5 {
+    margin: 0px 0px 0px 40px;
+  }
+  .btn-wrapper {
+    width: 100%;
+    margin: 20px 0px 20px 0px;
+  }
+  .card {
+    margin: 10px 0px 10px -10px;
+  }
+
+  .img {
+    display: none;
+  }
+  main {
+    flex-wrap: wrap;
+    padding: 0px 0px 0px 20px;
+  }
+  .categories {
+    margin-top: 20px;
+  }
+  .categories h3,
+  h5 {
+    width: 70%;
+  }
+}
+
+@media (max-width: 660px) {
+  .card {
+    display: flex;
+    justify-content: center;
+    margin: 10px 70px 10px 0px;
+    padding: 0px;
+  }
+
+  .categories > div > div > img {
+    width: 12%;
+  }
+  section {
+    margin-left: 0px;
+  }
+  section h1 {
+    font-size: 24px;
+  }
+  section h2 {
+    font-size: 18px;
+    width: 100%;
+  }
+  .btn-wrapper a button {
+    font-size: 70%;
+  }
+  .content {
+    flex-wrap: wrap;
+  }
+  .content_img > img {
+    width: 85%;
+  }
+  .category {
+    display: inline;
+  }
+  .hed_category > div > div > img {
+    width: 100%;
+    padding: 0px 5px 0px 5px;
+  }
+  .category h4 {
+    font-size: 15px;
+  }
+  .categories div {
+    display: flex;
+    flex-direction: column;
+  }
+  .categories h3,
+  h5 {
+    width: 100%;
+  }
+  .categories h5 {
+    margin-left: 0px;
+  }
+  .text_1 > h5 {
+    font-size: 17px;
+  }
+  .foot_img > img {
+    width: 90%;
+    padding: 0px;
+    margin: 0px;
+  }
+  .login > input {
+    margin: 10px;
+    padding: 10px 0px 10px 10px;
+  }
+  .login > a > button {
+    margin: 10px;
+    padding: 10px 0px 10px 10px;
+  }
+}
+
+@media (max-width: 500px) {
+  .big__text {
+    font-size: 36px;
+  }
+  .small__text {
+    font-size: 18px;
+  }
+
+  .m__content {
+    margin-top: 5%;
+  }
+  .p__content {
+    padding: 3% 5%;
+  }
+  .btn__auth {
+    width: 100%;
+    padding: 10px 16px;
+    background: rgb(170, 231, 72);
+    border-radius: 15px;
+    font-size: 18px;
+  }
+}
+
+@media (max-width: 400px) {
+  .big__text {
+    font-size: 32px;
+  }
+  .small__text {
+    font-size: 18px;
+  }
+
+  .m__content {
+    margin-top: 5%;
+  }
+}

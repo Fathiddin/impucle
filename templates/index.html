@@ -1,0 +1,354 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="{% static 'assets/css/style.css' %}">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <div class="container">
+
+
+        <div class="row mt-3">
+            <div class="col-sm-12 col-md-4 col-lg-4">
+                <a href="/" class="">
+                    <img src="{% static 'assets/images/Group_18541.svg' %}" alt="">
+                </a>
+            </div>
+            <div class="col-sm-12 col-md-12 col-lg-8 text-white header__text">
+                Skypro - 1-sonli ingliz tili maktabining onlayn universiteti
+            </div>
+        </div>
+        {% if message %}
+        <div class="alert alert-success mt-2" role="alert">
+            {{message}}
+          </div>
+        {% endif %}
+        <div class="header__blog p-3 mt-3">
+
+
+            <div class="d-flex justify-content-between p__content">
+                <div>
+                    <h2 class="text-white">
+                        27 Iyul
+                    </h2>
+                    <h4 class="text-white">
+                        18:00
+                    </h4>
+                </div>
+
+
+                <div class="text-white">
+                    Jonli efir
+                </div>
+            </div>
+
+            <div class="big__text fw-bold lh-sm text-white col-sm-12 col-lg-9 p__content">
+                IT sohasida o'zimizni sinab ko'rish: biz sizga 6 ta IT kasblari haqida oddiy va tushunarli tarzda aytib
+                beramiz
+            </div>
+            <div class="small__text text-white col-sm-12 col-lg-9 p__content">
+                1 kunda o'zingizni IT kasblarida sinab ko'ring, haqiqiy vazifalarni bajaring va masofaviy ishga o'tishni
+                o'rganing
+            </div>
+            <a href="#footer_id" class="btn btn__auth px-5">
+                Ro'yhatdan o'tish
+            </a>
+
+        </div>
+
+
+        <div class="row mt-5">
+
+            <div class="col-lg-6 m__content">
+                <div class="small__text text-secondary">
+                    Marafonda kim yetakchilik qiladi??
+                </div>
+                <div class="big__text fw-bold text-white">
+                    Xariton Matveev
+                </div>
+                <div class="small__text text-white">
+                    RBC ma'lumotlariga ko'ra, Skyeng Rossiyadagi eng yirik ta'lim kompaniyalaridan biridir.
+                    <br>
+                    Sizni 2023 yilda IT mehnat bozori tendentsiyalari bilan tanishtiradi.
+                </div>
+            </div>
+            <div class="col-lg-6 mt-4">
+                <img src="{% static 'assets/images/nnn-2.png' %}" width="80%" alt="">
+            </div>
+        </div>
+        <br><br>
+        <div class="big__text lh-sm fw-bold text-white col-lg-7 mt-3">
+            3 soatlik jonli efir - 6 ta kasb. IT haqida amaliyot, nazariya, ochiq haqiqat!
+        </div>
+
+        <div class="row mt-3">
+            <div class="col-lg-6 m__card">
+                <div class="card bg-dark p-3 text-white" style="border-radius: 10px;">
+                    <div class="small__text">
+                        Mutaxassislar 6 ta IT kasblari haqida oddiy so'zlar bilan va suvsiz gapiradilar
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-6 m__card">
+                <div class="card bg-dark p-3 text-white" style="border-radius: 10px;">
+                    <div class="small__text">
+                        Har bir kasb uchun haqiqiy misollar va amaliy topshiriqlar beramiz
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-6 m__card">
+                <div class="card bg-dark p-3 text-white" style="border-radius: 10px;">
+                    <div class="small__text">
+                        IT mutaxassisi rolini sinab ko'ring va sizni qiziqtirayotganini tushuning
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-6 m__card">
+                <div class="card bg-dark p-3 text-white" style="border-radius: 10px;">
+                    <div class="small__text">
+                        To‘g‘risini aytaylik, tajribasiz boshlovchi 2023 yilda IT sohasiga o‘tishi mumkinmi?
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row mt-5">
+            <div class="col-lg-6">
+                <div class="small__text orange__text">
+                    3 soatlik jonli efir - 6 ta kasb. Amaliyot, nazariya, IT haqidagi ochiq haqiqat! Bu IT-shou bo‘lib,
+                    siz havoni boshqarasiz va nimani tomosha qilishni tanlaysiz.
+                </div>
+                <div class="small__text text-white">
+                    Siz yangi bilim va fikrlarsiz ketmaysiz!
+                </div>
+            </div>
+            <div class="col-lg-6">
+                <img src="{% static 'assets/images/4.svg' %}" width="80%" alt="">
+            </div>
+        </div>
+
+        <div class="main__blog">
+
+            <div class="p-3">
+
+                <div class="big__text fw-bold lh-sm col-lg-8">
+                    Oltita IT kasbidan biz sizga eng mosini tanlaymiz
+                </div>
+                <div class="small__text text-secondary col-lg-8">
+                    Kursdan so'ng siz tanlagan kasbingiz bo'yicha yangi ish topishingizga kafolat beramiz - biz buni
+                    shartnomada belgilaymiz va har bir talabaga haqiqatan ham yordam beramiz.
+                </div>
+            </div>
+            <img src="{% static 'assets/images/photo_2023-07-27_14-21-28.jpg' %}" width="100%" alt="">
+        </div>
+
+        <section>
+            <div class="d-flex justify-content-around align-items-center my-2 content">
+                <div>
+                    <h2 class="text-white">
+                        Sizni haqiqiy IT jihozlash xonalariga olib boradilar, u yerda sizni mutaxassis kutadi. U sizga
+                        kasbning mohiyati nimada ekanligini aytib beradi, amaliy topshiriq beradi va uni hal qilishga
+                        yordam beradi.
+                    </h2>
+
+                    <h2 class="text-white">
+                        Natijada, sizga nima yaqinroq ekanligini va nima aniq mos kelmasligini tushunasiz. Rivojlanish
+                        qiziqarli bo'lgan yo'nalish haqida qaror qabul qiling.
+                    </h2>
+                    <div class=" btn-wrapper text-white ">
+                        <a href="#"><button type="button"
+                                class="btn btn-outline-secondary text-white my-2 rounded-pill">Ma'lumotlar
+                                tahlili</button></a>
+                        <a href="#"><button type="button"
+                                class="btn btn-outline-secondary text-white my-2 rounded-pill">Grafik
+                                dizayner</button></a>
+                        <a href="#"><button type="button"
+                                class="btn btn-outline-secondary text-white my-2 rounded-pill">Sinov
+                                muhandisi</button></a>
+                        <a href="#"><button type="button"
+                                class="btn btn-outline-secondary text-white my-2 rounded-pill">Java
+                                dasturchi</button></a>
+                        <a href="#"><button type="button"
+                                class="btn btn-outline-secondary text-white my-2 rounded-pill">Python
+                                dasturchi</button></a>
+                        <a href="#"><button type="button"
+                                class="btn btn-outline-secondary text-white my-2 rounded-pill">Veb
+                                dasturchi</button></a>
+                    </div>
+                </div>
+                <div class="content_img">
+                    <img src="{% static 'assets/images/Group_1077240431.svg' %}" alt="">
+                </div>
+
+            </div>
+        </section>
+
+        <section>
+            <h1 class="text-white fw-bold lh-sm">Keling, dasturlash kerak bo'lmagan kasblar haqida gapiraylik</h1>
+            <div class="hed_category d-flex justify-content-between">
+                <div class="category d-flex">
+                    <div class=" fw-bold fs-3"><img src="{% static 'assets/icons/Frame_1077239721.svg' %}" alt=""></div>
+                    <h4 class="text-white d-flex align-items-end">Kod bilan aralashishning hojati yo'q</h4>
+                </div>
+                <div class="category d-flex">
+                    <div class=" fw-bold fs-3"><img src="{% static 'assets/icons/Frame_1077239722.svg' %}" alt=""></div>
+                    <h4 class="text-white d-flex align-items-end">Tajribasiz, istalgan sohadan harakat qilish oson </h4>
+                </div>
+                <div class="category d-flex">
+                    <div class=" fw-bold fs-3"><img src="{% static 'assets/icons/Frame_1077239723.svg' %}" alt=""></div>
+                    <h4 class="text-white d-flex align-items-end">Olti oydan kamroq vaqt ichida yangi ish</h4>
+                </div>
+            </div>
+
+            <div class="d-flex justify-content-between my-4 flex-wrap">
+                <div class="row">
+                    <div class="col-lg-4 col-md-12">
+                        <div class="card text-white">
+                            <h3 class="text-white my-3 mx-2">«Java-dasturchi»
+                            </h3>
+                            <ul>
+                                <li>ishlab chiquvchilar nima qiladi</li>
+                                <li>dasturchi bo'lish uchun nima qilish kerak</li>
+                                <li>kodni qanday yozish kerak - va shu bilan birga biz eng oddiy dasturlashni
+                                    o'zlashtiramiz
+                                </li>
+                                <li class="text-primary">maoshingizni hisoblaydigan dastur tuzamiz</li>
+
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-12">
+                        <div class="card text-white">
+                            <h3 class="text-white my-3 mx-2">«Veb-dasturchi»
+                            </h3>
+                            <ul>
+                                <li>U boshqa dasturchilardan nimasi bilan farq qiladi?</li>
+                                <li>veb-saytlar qanday ishlaydi</li>
+                                <li>backend va frontend nima
+                                    veb-ishlab chiquvchilar ishining xususiyatlari</li>
+                                <li class="text-primary">keling, musiqa yig'uvchi uchun animatsion intro yarataylik</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-12">
+                        <div class="card text-white">
+                            <h3 class="text-white my-3 mx-2">«Python-dasturchi»
+                            </h3>
+                            <ul>
+                                <li>ishlab chiquvchilar nima qiladi</li>
+                                <li>dasturchi bo'lish uchun nima qilish kerak</li>
+                                <li>kodni qanday yozish kerak - va shu bilan birga biz eng oddiy dasturlashni
+                                    o'zlashtiramiz
+                                </li>
+                                <li class="text-primary">maoshingizni hisoblaydigan dastur tuzamiz</li>
+
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <main class="d-flex justify-content-between text-white">
+            <div>
+                <h1 class="lh-sm fw-bold">Keling, musiqa yig'uvchi uchun animatsion intro yarataylik...</h1>
+                <img src="{% static 'assets/images/Group_1077239631.svg' %}" class="img" alt="">
+            </div>
+
+            <div>
+                <div class="categories">
+                    <div class=" d-flex">
+                        <div class=" fw-bold fs-3"><img src="{% static 'assets/icons/Frame_1077239721.svg' %}" alt="">
+                        </div>
+                        <h3 class="text-white align-items-column">Marafonga keling - bu IT kasblar olamiga bepul sayohat
+                        </h3>
+                    </div>
+                    <h5 class="text-secondary">Siz har bir yo'nalishni ichkaridan o'rganasiz va qaysi biri sizga mos
+                        kelishini hal qilasiz</h5>
+                    <div class=" d-flex mt-4">
+                        <div class=" fw-bold fs-3"><img src="{% static 'assets/icons/Frame_1077239722.svg' %}" alt="">
+                        </div>
+                        <h3 class="text-white d-flex align-items-end">Tanlovingizni Skypro-dan kasb bo'yicha maslahatchi
+                            bilan muhokama qiling</h3>
+                    </div>
+                    <h5 class="text-secondary">Bepul shaxsiy uchrashuv sizga to'g'ri qaror qabul qilishga yordam beradi.
+                    </h5>
+                    <div class=" d-flex mt-4">
+                        <div class="b_radius fw-bold fs-3"><img src="{% static 'assets/icons/Frame_1077239723.svg' %}"
+                                alt=""></div>
+                        <h3 class="text-white d-flex align-items-end">Yangi kasbni o'rganishni boshlang va bilingki,
+                            oxirida siz albatta ish topasiz</h3>
+                    </div>
+                </div>
+            </div>
+        </main>
+        <footer class="foot_card" id="footer_id">
+            <div class=" d-flex justify-content-between align-items-center foot_text_content">
+                <div class="">
+                    <h2 class="my-4 mx-4 fw-bold lh-sm">Barcha ishtirokchilar - sovg'alar olishadi</h2>
+                    <div class="d-flex text_1">
+                        <h5>Qo'llanma "6 oy ichida ITga <br> qanday kirish kerak"</h5>
+                        <h5>Yangi kasbni o'rganish uchun <br> kafolatlangan chegirma</h5>
+                    </div>
+
+
+                </div>
+
+                <div class="foot_img "><img src="{% static 'assets/images/Group_1077240048.svg' %}" alt=""></div>
+            </div>
+            <h3 class="mt-4 mx-4 fw-bold lh-sm">27-IYUL BEPUL MARAFON</h3>
+
+
+
+                <form action="/" class="d-flex login" method="post">
+                    {% csrf_token %}
+                    {{form}}
+                    
+                <a><button type="submit" class="fw-bold">Bepul ro'yhatdan o'ting</button></a>
+                </form>
+                <!-- <input type="text" placeholder="Ism">
+                <input type="email" placeholder="Elektron pochta">
+                <input type="number" placeholder="(998) 999-99-99"> -->
+
+            <p class="mx-4 p-2">So'rovni qoldirib, siz <a href="#" class="text-decoration-underline">shaxsiy
+                    ma'lumotlarni
+                    qayta ishlash bo'yicha Siyosat</a> shartlarini va <a href="#"
+                    class="text-decoration-underline">shaxsiy ma'lumotlarni qayta ishlash va
+                    saqlash shartnomasini qabul qilasiz.</a></p>
+        </footer>
+
+    </div>
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
+        </script>
+    <style>
+        label{
+            display: none;
+        }
+        input::-webkit-outer-spin-button,
+        input::-webkit-inner-spin-button {
+        -webkit-appearance: none;
+        margin: 0;
+        }
+
+        /* Firefox */
+        input[type=number] {
+        -moz-appearance: textfield;
+        }
+    </style>
+</body>
+
+</html>
