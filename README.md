@@ -1,2 +1,2 @@
 # impucle
-https://impulce.pythonanywhere.com/
+https://http://openday.robocode.uz/
