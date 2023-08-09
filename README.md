@@ -1,2 +1,2 @@
 # impucle
-https://http://openday.robocode.uz/
+http://openday.robocode.uz/
